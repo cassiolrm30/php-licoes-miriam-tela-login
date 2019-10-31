@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+body
+{
+	background-image: url("../IMAGENS/fundo3.jpg");	
+	background-position: 0% 100%;
+	color: white;
+	font-family: arial;
+}
+
+input
+{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.01);
+	color: white;
+	outline: none;
+}
+
+div#corpo-form
+{
+	width: 420px;
+	margin: 130px auto 0px auto;
+}
+
+div#corpo-form-cad
+{
+	width: 420px;
+	margin: 80px auto 0px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cad h1
+{
+	text-align: center;
+	padding: 20px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+input[type=submit]
+{
+	background-color: #FF0066;
+	border: none;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { color: #fff; /* Webkit browsers */ 		 }
+::-moz-placeholder       	{ color: #fff; /* Mozilla Firefox 4 to 18 */ }
+::-moz-placeholder 			{ color: #fff; /* Mozilla Firefox 19+ */ 	 }
+::-ms-input-placeholder 	{ color: #fff; /* Internet Explorer 10+ */ 	 }
+
+div#msg-sucesso
+{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50,205,50,.3);
+	border: 1px solid rgb(34,139,34);
+}
+
+div#msg-erro
+{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250,128,114,.3);
+	border: 1px solid rgb(165,42,42);
+}
